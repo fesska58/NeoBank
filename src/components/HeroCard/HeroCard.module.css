@@ -1,0 +1,7 @@
+.hero {
+  max-width: 1240px;
+  margin: 40px auto;
+  padding: 40px;
+  background: #dfe7ff;
+  border-radius: 28px;
+}
