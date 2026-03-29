@@ -1,6 +1,6 @@
 .header {
-  padding: 24px 0;
-  border-bottom: 1px solid #e6e6e6;
+  padding: 20px 0;
+  background-color: #f5f4ff;
 }
 
 .container {
@@ -9,21 +9,47 @@
   padding: 0 20px;
 
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
   font-size: 24px;
   font-weight: 700;
+  color: #b4387a;
 }
 
 .nav {
   display: flex;
+  align-items: center;
   gap: 32px;
 }
 
-.nav a {
-  color: #1f1f1f;
+.link {
   font-size: 16px;
+  color: #1f1f1f;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #b4387a;
+}
+
+.active {
+  color: #b4387a;
+}
+
+.button {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 16px;
+  background-color: #003cff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #1d4fff;
 }
