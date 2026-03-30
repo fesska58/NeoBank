@@ -1,32 +1,36 @@
 .header {
-  padding: 20px 0;
+  padding: 20px 15px;
   background-color: #f5f4ff;
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   color: #b4387a;
+  margin-right: 35px;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 40px;  
 }
 
 .link {
-  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 112%;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 14px;
   color: #1f1f1f;
   transition: color 0.2s ease;
 }
@@ -36,16 +40,20 @@
 }
 
 .active {
-  color: #b4387a;
+  color: #B2A35F;
 }
 
 .button {
-  padding: 16px 32px;
+  padding: 14px 15px;
   border: none;
   border-radius: 16px;
   background-color: #003cff;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
+  letter-spacing: 2%;
+  line-height: 112%;
+  font-weight: 700;
+  font-style: bold;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }

@@ -7,8 +7,7 @@ const HeroCard = () => {
             <div className={styles.container}>
                 <div className={styles.content}>
                     <h1 className={styles.title}>
-                        Platinum digital credit card
-                        
+                        Platinum digital credit card                        
                     </h1>
 
                     <p className={styles.description_text}>

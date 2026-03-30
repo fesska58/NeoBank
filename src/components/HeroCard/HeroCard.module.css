@@ -1,20 +1,15 @@
-.hero {
-  margin-top: 32px;
-}
-
 .container {
-  max-width: 1300px;
+  max-width: 1160px;
   margin: 0 auto;
-  padding: 0 20px;
-
+  padding-left: 30px;
+  padding-right: 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-
-  padding-top: 48px;
-  padding-bottom: 48px;
-  background: linear-gradient(#CBD5E0C7 78%, #FEEBC8B2 70%);
+  padding-top: 46px;
+  padding-bottom: 46px;
+  background: linear-gradient(#CBD5E0C7, #FEEBC8B2);
   border-radius: 28px;
 }
 
@@ -40,9 +35,10 @@
 }
 
 .title {
-  margin: 0 0 28px;
-  font-size: 48px;
-  line-height: 1.1;
+  margin: 0 0 38px;
+  font-size: 40px;
+  letter-spacing: 2%;
+  line-height: 112%;
   font-weight: 700;
   color: #ffffff;
 }
@@ -53,17 +49,18 @@
   font-size: 16px;
   line-height: 1.12;
   color: #2D3748;
+  margin-bottom: 25px;
 }
 
 .description {
-  margin: 0 0 36px;
+  margin: 0 0 20px;
   font-size: 18px;
   line-height: 1.6;
   color: #2D3748;
 }
 
 .button {
-  padding: 16px 32px;
+  padding: 12px 16px;
   border: none;
   border-radius: 8px;
   background-color: #003cff;
@@ -82,8 +79,8 @@
 }
 
 .image {
-  max-width: 380px;
-  max-height: 226px;
+  max-width: 310px;
+  max-height: 200px;
   border-radius: 20px;
   max-width: 100%;
   display: block;
