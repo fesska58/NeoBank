@@ -1,7 +1,90 @@
 .hero {
-  max-width: 1240px;
-  margin: 40px auto;
-  padding: 40px;
-  background: #dfe7ff;
+  margin-top: 32px;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background: linear-gradient(#CBD5E0C7 78%, #FEEBC8B2 70%);
   border-radius: 28px;
+}
+
+.content {
+  max-width: 650px;
+}
+
+.items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item{
+
+}
+
+.label {
+  font-weight: 700;
+  font-size: 20px;
+  color: #3d3d3d;
+  margin: 0;
+}
+
+.title {
+  margin: 0 0 28px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.description_text {
+  font-weight: 500;
+  letter-spacing: 2%;
+  font-size: 16px;
+  line-height: 1.12;
+  color: #2D3748;
+}
+
+.description {
+  margin: 0 0 36px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #2D3748;
+}
+
+.button {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: #003cff;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #1d4fff;
+}
+
+.imageWrapper {
+  flex-shrink: 0;
+}
+
+.image {
+  max-width: 380px;
+  max-height: 226px;
+  border-radius: 20px;
+  max-width: 100%;
+  display: block;
 }
