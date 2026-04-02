@@ -51,7 +51,7 @@ const Form = () => {
   };
 
   return (
-    <section>
+    <section className={styles.section}>
       <div className={styles.container}>
         <div className={styles.columnWrapper}>
           <div className={styles.leftColumn}>
