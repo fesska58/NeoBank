@@ -1,8 +1,8 @@
 .container {
   max-width: 1300px;
   margin: 0 auto;
-  padding-left: 30px;
-  padding-right: 110px;
+  padding-left: 32px;
+  padding-right: 117px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,10 +21,6 @@
   display: flex;
   align-items: center;
   gap: 80px;
-}
-
-.item{
-
 }
 
 .label {
@@ -67,7 +63,7 @@
   border-radius: 8px;
   background-color: #003cff;
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 2%;
   font-size: 16px;
   line-height: 1.12;
@@ -84,8 +80,8 @@
 }
 
 .image {
-  max-width: 310px;
-  max-height: 200px;
+  max-width: 380px;
+  max-height: 226px;
   border-radius: 20px;
   max-width: 100%;
   display: block;

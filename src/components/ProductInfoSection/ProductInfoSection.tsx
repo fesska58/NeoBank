@@ -1,7 +1,13 @@
 import { useState } from 'react'
 import styles from './ProductInfoSection.module.css'
 
-const cards = [
+interface Card {
+  title: string;
+  description: string;
+  icon: string;
+}
+
+const cards: Card[] = [
   {
     title: 'Up to 50 000 ₽',
     description: 'Cash and purchases without commission and percent',
@@ -30,7 +36,7 @@ const cards = [
   },
 ]
 
-const tabs = [ 
+const tabs: string[] = [ 
   'About card',
   'Rates and conditions',
   'Cashback',
@@ -38,7 +44,7 @@ const tabs = [
 ]
 
 const ProductInfoSection = () => {
-  const [activeTab, setActiveTab] = useState(0);
+  const [activeTab, setActiveTab] = useState<number>(0);
   return (
     <section className={styles.section}>
       <div className={styles.container}>

@@ -19,8 +19,7 @@
 .wrapper {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
-  gap: 40px;
+  justify-content: space-between;
 }
 
 .item {
