@@ -82,25 +82,6 @@
   outline: none;
 }
 
-.slider::-webkit-slider-thumb {
-  appearance: none;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: #6b3df4;
-  cursor: pointer;
-  border: none;
-}
-
-.slider::-moz-range-thumb {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: #6b3df4;
-  border: none;
-  cursor: pointer;
-}
-
 .sliderFooter {
   display: flex;
   justify-content: space-between;

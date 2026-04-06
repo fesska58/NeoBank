@@ -16,7 +16,7 @@ const MIN_AMOUNT = 15000;
 const MAX_AMOUNT = 600000;
 
 const Form = () => {
-  const [amount, setAmount] = useState<number>(150000);
+  const [amount, setAmount] = useState<number>(15000);
 
   const [formData, setFormData] = useState<FormData>({
     lastName: '',
